@@ -1,0 +1,47 @@
+name: app
+description: A new Flutter application.
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  pdftron_flutter:
+    git:
+      url: git://github.com/PDFTron/pdftron-flutter.git
+  permission_handler: '3.0.1'
+
+  cupertino_icons: ^0.1.2
+  curved_navigation_bar: ^0.3.1
+  firebase_core: ^0.4.0+7
+  firebase_auth: ^0.15.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  assets:
+    - images/girlreading.png
+    - images/boy.png
+
+  fonts:
+    - family: Montserrat
+      fonts:
+        - asset: fonts/Montserrat-Medium.ttf
+        - asset: fonts/Montserrat-Black.ttf
+    - family: UbuntuCondensed
+      fonts:
+        - asset: fonts/UbuntuCondensed-Regular.ttf
+
